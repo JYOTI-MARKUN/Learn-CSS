@@ -1,0 +1,13 @@
+# Three ways to add style sheet in html
+1.inline css (element style also called)  (Breaks DRY principal as if we have 10 h1 heading then we have to copy & paste 10 time )
+2.style tag/ internal styles (element selector)(also breaks DRY principal as for different page we need to add style tag and all code)
+3.external css 
+
+inthem in style > internal css > external css
+
+always do check DEv tools Network if cought error or to check how the actual process runs behind the seen
+our browser send the request to html first that why in the Network tab initiater name is others and after that we can check who send the request and in whch url and what is the status of our request
+
+#user agent style sheet it is the style given by the browser, which is used to be different in different browser in old times but now it is almost same in every browser
+
+# text decoration property in css is the combination of more than one property like text decoration line,style,color,thickness
