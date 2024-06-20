@@ -1,0 +1,23 @@
+/CSS SELECTOR
+class selector : select with .
+id selector : selector with #
+attribute selector : select with []
+element selector :with tag name
+
+descendant selector / combinator selector : ul li , .unordered-list p 
+
+pseudo classes / selector : element name : pseudo selector  like h1:hover{
+    background-color :teal
+}
+
+[]:hover{
+
+}
+
+.html:hover{
+
+}
+
+#css:hover{
+    
+}

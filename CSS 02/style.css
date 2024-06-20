@@ -1,0 +1,60 @@
+.html{
+    color:#DD4B25;
+}
+
+li{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.css{
+    color:#254BDD;
+}
+
+.js{
+    color:#F7E018;
+}
+
+.tl{
+    color:#17B9B9 ;
+}
+
+.react{
+    color: #60DBFA;
+}
+
+[class]{
+    background-color: aliceblue;
+}
+
+[jyoti="markun"]{
+    background-color: #c9d1ef
+    ;
+}
+/* #html{
+    font-size: 32px
+}
+
+#css{
+    font-size: 32px
+}
+
+#js{
+    font-size: 32px
+}
+
+#tl{
+    font-size: 32px;
+}
+
+#react{
+    font-size: 32px;
+} */
+
+.unordered-list p{
+    background-color: teal;
+}
+
+h1:hover {
+    color:palegreen ;
+}
