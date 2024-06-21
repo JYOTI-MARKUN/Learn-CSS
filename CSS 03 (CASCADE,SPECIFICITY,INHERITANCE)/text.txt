@@ -1,0 +1,13 @@
+cascading : the element that are mention at the very last will get higher importance
+
+specificity 1 < 10 < 100
+element selector < class selector < id selector <
+
+if we have connected two style sheet then the sheet that comes later in the code will get higher preference
+
+
+inheritance in css is when property of parent apply to its childeren
+like any style we give on body will apply to all its childeren
+(mostly font property inherit expect for some)
+
+like button tag did not inherit property from parent actually it do but it get over write by user agent style sheet, so if we wanna apply style of parent to the button we need to use innherit to the property we wanna inherit from parent
