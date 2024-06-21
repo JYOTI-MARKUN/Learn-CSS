@@ -1,0 +1,40 @@
+ ul{
+    background-color: bisque !important;
+ }
+ 
+ li{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+[class]{
+    font-size: 12px;
+    font-weight: 800;
+}
+.html{
+    background-color: teal;
+}
+
+/* the below will get higher importance acording to cascading rule */
+
+.html{
+    background-color: green;
+}
+
+.p{
+    background-color: aqua;
+}
+
+p{
+    background-color: pink;
+}
+
+#css{
+    background-color: brown;
+}
+
+.css{
+   background-color: blueviolet;
+}
+
+

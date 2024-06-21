@@ -1,0 +1,1 @@
+as we know that inline style (element style) will get the higher importance it's specificity is 1000, it seems to be impossible to overwtite this but we can make any style higher importance by adding !importance keyword in the selector style,and to overwritr we can use only importance with cascade rule or specificity rule, but we should avoid ususing that
