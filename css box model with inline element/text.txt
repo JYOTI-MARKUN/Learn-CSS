@@ -1,0 +1,27 @@
+inline element takes only the width required to fill there content, height nad width property does not work on inline element
+
+block element takes space of a box while inline element does not
+
+when we apply padding to inline element its height and width increases means padding do work on inline element
+left, right padding works fine,but for top and bottom it does not work fine it grows without pushing other element
+same is the story for border, margin
+
+outline does not work fine for both inline as well as block level element
+
+// display property 
+
+we can change inline element to block element and vice versa using display property
+1.inline  does not apply height and width remains in same line
+2.block  apply height and width and comes in next line
+3.inline-block apply height and width and remains in same line
+4.none
+
+// inline element has two type replace and non replace
+
+replace inline element our height width work as our text content is replace by other data like i case of image tag some picture from web or our source replace the inner content
+example image iframe(here we need to set height and width unlike image where do not need to set both ),video
+
+non replace a span and bold
+
+one difference between inline replace and inline non replace is that inline replace has height and width in box model in dev tool where as inline non replace have height and width auto auto
+

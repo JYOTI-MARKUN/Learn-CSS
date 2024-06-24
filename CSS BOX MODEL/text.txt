@@ -1,0 +1,22 @@
+as we know block level element has default width is 100% and height is equal to the content of the element, if we set width of block level element and that width(browser's) is less than the content of the element then it will overflow and we get a scroll bar which not looks good, so we need to set max-width instead of width
+
+also do not set height and width simultaneously because it will create condition of overflow that is our content will cpme out, use combo of max-width and min-heght
+
+width and height in percentage depend on the parents width and height respectively
+
+// when set the width of a element in percentage it will take width according to its parents width, wether we have given any width to the parent our not if we have give width to parent then it is good if not then it will take width of its parent,after its parent and all nad at the end it will go the browsers width
+
+
+// but height to set in percentage we need to set it's parents height in absolute unit i.e in px
+
+// padding adding space for content have four properties, padding left ,right,bottom,top
+
+// border default color is the text color but we can over write it by adding color 
+//  by doing box sizing border box the total width or height include the padding and border
+but in default box size is content box which does not include padding border value in the width of the content
+// specificity of box sizing is 0 
+
+// by default we have some margin n our body and heading tag
+margin do not include in height and width of the element
+
+// we can set margin and padding in negative values also

@@ -1,0 +1,28 @@
+body{
+    height: 800px;
+    font-size: 8px;
+    
+}
+
+.parent{
+    /* width: 800px; */
+    background-color: khaki;
+    height: 50%
+    /* height: 800px; */
+}
+.one{
+    background-color: aqua;
+    /* width: 500px; do not use this as this will create a horizontal scroll bar when our browsers width is less than the actual width of the content, instead of this use max-width: ; */
+    /* max-width: 500px; */
+    /* height: 300px; */
+    /* min-height: 300px; */
+    /* width: 50%;  width will be 400px (as it is the child of parent the outer div) */
+    word-break: break-all;
+    height: 50%;
+}
+.one-child{
+    width: 50%;
+    height: 75%;
+    background-color: pink;
+}
+
