@@ -1,0 +1,16 @@
+1.by default any html element has position static
+2.we have four more position values relative,absolute,sticky
+3.by setting position relative we can set top, left, bottom, right values we can not set top and bottom together as it will be confusion to set top and bottom together, same case with right and left (we can all four property together using inset)
+4. using unset property we can set default position property, incase we do not know the position property value
+5. when we apply position absolute property to a element then it's height become zero, like it only appears but does not have height and width,so the other element takes it's position
+6. we can set top,right,bottom and right property in position absolute also, and it will move according to the viewport height nad width
+
+when we give position other than static to its parent then it will move according to its parent, parent does not have position other then static the it will look for parent's parent position as so on....
+
+if parent position is other than static and parent height is less than its own height, then it can come out but still it will move according to its parent only
+
+7.position fixed is same as position absolute, the only difference is that it get positioned according to viewport height and width oly, no matter what is the postion of its parent
+
+8. postion sticky gets stick to its parent, it will not go out of its parent,to make top bottom left right all property work in this position we need to set overflow scroll (mostly overflow-y scroll) to the parent, 
+
+if we do not set overflow scroll to the parent then it will check to its parents's parent then al last it move according to viewport height and width, but will stay inside its parent and when its parent go out from viewport height then it will move with its parent
