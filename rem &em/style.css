@@ -1,0 +1,25 @@
+:root{
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    font-size: 2em;
+}
+
+section{
+    background-color: greenyellow;
+    width: 50vw;
+    height: 50vh;
+    padding: 10vw;
+    margin: 10vw;
+    border: 10px solid green;
+    font-size: 2em;
+}
+
+.box{
+    background-color: antiquewhite;
+    font-size: 2rem;
+    padding: 24px;
+    /* box-sizing: border-box; */
+    width: 10rem;
+}

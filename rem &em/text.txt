@@ -1,0 +1,3 @@
+when we set fotn-size in em then it will consider the parent font-size as 1em, and calculate font on this basis
+when we set other height,width,margin,padding then it will check it's own font size as 1em and calculate properties based on that
+when we set properties in rem then it will depend on the root/html element which is by default 16px , we can change that
