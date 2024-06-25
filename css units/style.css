@@ -1,0 +1,29 @@
+html{
+    /* background-color: aquamarine; */
+    /* height: 300px; */
+}
+
+body{
+    margin: 0;
+    /* height: 50%; */
+    background-color: aliceblue;
+}
+
+section{
+    /* height: 50%; */
+    /* box-sizing: border-box; */
+    width: 400px;
+    padding: 10%;
+    font-size: 206px;
+    background-color: blueviolet;
+}
+.box{
+    background-color: chartreuse;
+    width: 50%;
+    height: 50%;
+    padding: 10%;
+    margin: 10%;
+    font-size: 10%;
+    /* max-width: 500px; */
+    
+}

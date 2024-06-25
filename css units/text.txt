@@ -1,0 +1,6 @@
+#width in %age will depend on gthe parents width 
+#height in % depend on the parents width as well but to set the height in %age parents height should be in pixels
+#margin, padding in %age depend on the parenst width 
+#border we can not set border in %age
+#font size in %age depend oon the parents font size, if we have not set the parents font size min value of the font size in %age will be 6% , if wehave set the %age then i will depend on the parents font size
+# vh, vw depend on the browsers height and width, we can set border margin and padding as well in vh and vw
