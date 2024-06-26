@@ -1,0 +1,26 @@
+NOte: Transform property do not effect it's surrounding element
+1. Transform Property Scale : Means growing an element, its like watching an element through microscope, by using scale property we can see our element growing but it's height and width remain uneffected
+
+2. Scale from Origin 0 0 ,in Transform-origin it will from x=0 y=0 means it will grow from perticular point, by defalt it grows from centre
+
+3. in rgba color coding a means alpha channel, using a we give opacity, whose values lies between zero and one, at the top it value is 1, that means no opacity value, when we set opacity 0 the element will get fully transparent
+
+4. opacity is same as alpha channel, the only difference is that if we set alpha channel then it will make only our background transparent,  but using opaxity we can make our all content inside the element transparent
+
+5. Transform Rotate using rotate property we can rotate element 360 deg both clockwise(+ve value) and anticlockwise(-ve value) 
+
+6. Transform translate has two values translateX(horizontal move) and translateY (vertical move) it is same as margin, difference is margin push other element, but translate property do not effect it's surrounding element,
+we can set translate property in px and in %age translateY in %age will move according to it's height and translateY according to its width
+
+7. To make a element in centre with respect to its parent, we can use position absolute top 50% left 50% and  Transform translate(-50%,-50%)
+
+8. Box shadow :0px 0px 10px 10px rgba(2,2,2,0.3)
+first value is moving shadow in x axis , second in y axis, third value opacity forth is spread radius
+
+9. Text shadow is same as box shadow only difference is that it does not have spread radius property
+
+10. we can use many Transform property like translate,rotate,scale together
+
+11. background image has many properties like image,size,color, repeat,position
+
+12. transition property to give hover effect transition all time ease in out/in
