@@ -1,0 +1,56 @@
+1.width max content(put all content in one line), min content(logest word)
+
+2. When we set Display flex then the parent element is called flex container, and child element is called child element (only the direct child will become flex item)
+
+3. Display Flex : Make every child Display block, and set all element in one line,
+
+4. If we have enough available space in our flexbox then it will provide the set width and height to each element if we do not have enough space then fle starts decreasing(shrnkin) every element with a equal rate, means if flex has 4 child element and does not have enough space then if it will shrink one item 10% then it will also shrink other child by 10%
+
+5. Same case apply wth content width when we have not set any height and width property to the child element then its content with will the width: max content (all content in one line), and when we shring the width all will be shriked by same percentage but there is limit to shrik i.e. min width (logest word ) below that it will(child) not be shriked
+
+6. If we want to prevent any child (element) from getting shrink we can apply flex-shrink 0, flex shrink values lies between 0 to 1, 0 means no shrink 0.5 means shrink it half as comparison to other element, 1 means shrink same as other element
+
+7. Flex grow property give the extra space in flexbox if available to the element in which flex grow property is applied, if we have flex grow property in two child then the available space will divide equally to both the child element
+
+8. Width with flex shrink will not get reduce and width with flex grow will get increase
+
+9. Any element have height and width equal to its content (in case of inline element)
+
+10. Any element have height equal to its content (in case of block  element) and width is full line if we have set any width
+
+11. justify content has propertes centre, space between(give equal space between every item) space around( give space equallyt between element and also but margin from left and right but that margin will be the half of the margin beyween element), space evenly give equal space
+
+12. Align item default property is stretch, in this child element take the height equal to parent and content stretch to the upper.
+In Flex start child element contract themself to the height and of the content and stuck in the flex start
+in flex end child element Align them in flex end
+in content text will be placed in the centre
+
+13. Flex direction column : all child element will aligh in columns all property work same as in flex direct row,only differenec is  here instead of width height will get shrik and grow
+
+14. we have base size , shrink/grow size and final size , when we have the width in the child element then base width will be the width set in the child element, when we do not set the width then base width will be the content width
+
+15. when we wanna set the same width to every child element then we set the width 100% to every child element it will share the equal width of the flex container
+
+16. Flex basis will get priority in width and content when we set flex basis property applied for width, and when we set flex direction as column then flex basis property will apply for height
+
+17. flex wrap if enough space is not available then bring the content to the next line
+
+18. gap property is used to create gap between flex element (row gap is the combination of row gap and column gap), we can use margin property in place of gap (you have to check for previous set margin )
+
+19. Using Margin Auto property to the child we can set the child element to the centre, if we have given Display flex to the parent element, if we have not set Display property flex to the parent then only margin left and margin right will work (top bottom margin wll not work)
+
+20. margin block include top and bottom and margin inline include left right
+
+21. Order property: using order property we can set the order of the items, the more positive values means element wll comme at the end,bydeafult order property value is zero, so html will decide which wil come forst if we have not decide the order
+
+22. align self property : we can use align self property to set individual flex item to align it, flex start,flex end centre etc.  (align self centre works same as margiin block i.e. margin top and margin bottom)
+
+23. Flex is the combined property flex basis flex grow and flex shrink
+
+24. align item base line is same as aligh item flex start only difference is that baseline will align other itme to base line of the text
+
+25. align content property will work if we have multiple lines and flex wrap is on 
+
+26. main axis and cross axis, main axis is the axis in which the flex item is align in case of flex directo=ion row main axis is horizontal axis and cross axis is vertical
+
+27. Display inline flex will work as fle3x + inline (element), this will allow other item to come in same row
