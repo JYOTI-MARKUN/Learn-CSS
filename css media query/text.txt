@@ -1,0 +1,5 @@
+1.css media query is combination of media type and media features expression,
+2.media type is print media and media screen and all inall we have both print and screen media 
+3.in expresiion we can give orientation like portrait(height is greater than width like mobile phones) and landscape(width is greater than height like laptop, desktop screen)
+4. we have syntx like
+@media p

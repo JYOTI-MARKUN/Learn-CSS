@@ -1,0 +1,41 @@
+.box{
+    height:200px;
+    width: 300px;
+    border: 15px solid hotpink;
+    background-color: antiquewhite;
+}
+
+/* @media screen{
+    .box{
+        background-color: aqua;
+    }
+} */
+
+/* @media print{
+    .box{
+        background-color:blueviolet;
+    }
+} */
+
+/* combination of media type and media feature */
+
+/* @media print and  (max-width:1040px){
+  .box{
+    background-color: chartreuse;
+  }
+} */
+
+/* new media syntax: supported in only 70% browsers  */
+
+/* @media (750px < width < 1050px){
+    .box{
+        background-color: aqua;
+    }   
+} */
+
+@media(max-width:750px){
+    .box{
+        background-color: brown;
+    }
+}
+
