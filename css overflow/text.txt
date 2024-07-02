@@ -1,0 +1,3 @@
+overflow occurs when child content is more then the width of parent 
+overflow is good, try to avoid overflow hidden, auto property,
+always fins the root cause of overflow, most of the time root cause is we have set width propery to the parent, do not set width property to the parent as when we do not set the width property to the parent then aprent will auto take the width according to its child content

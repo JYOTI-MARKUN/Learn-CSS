@@ -1,0 +1,8 @@
+1. normal stacking orderis accroding to html order the last element will come in yhe first
+2. when we give position property other then static(which is default property) to any element then it will come over other element
+3. if we give position property to all the element then, again it will be determined by html
+4. z index property can only be applied when we set postion property to an element
+5. by default z index property has value auto which can be assumed equivalent to zero
+6. the more position value of z index will move our element over the otther elements
+7. when we have two container and if we set the index value on one of the child element of a container then that child element will come over another element
+8. if we give position and z index value to two container then all element inside the container remain inside only it will only depend on the z index value of their parents.
