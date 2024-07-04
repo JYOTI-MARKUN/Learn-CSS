@@ -1,0 +1,16 @@
+float porpert is used to float image either right or lefft in the document ao that image remains in the right or left side and our text can warp around it
+
+ it make most of the element block, expect flext and grid 
+ we know that image is an inline element, but it is an inline replaced element in which e can set height and width
+
+ float behaves similar as position absolute, as we know in position absolute elementbehaves like it does not exist or we can say it come out of normal document flow, in the same way float behaves , the other element comes over its position, the only difference is text do not come in its position
+
+two floated element can exist side by side , when we apply float porpert in two  element one and two thne they come side by side 
+apply float property to one the parent will apply float left to child also
+
+by using clear property in we can clear float
+
+clear :left will clear float left that means, any element will have to left space if it has some  element in its left and it has float property |similarly with right float
+
+
+note: we should avoid using float property as the image in which we apply float property can come out of the parent as by applying float property it come out of the normal document flow, although we can fix that using (display :float root ) to the parent, but still we shoukd avoid using float property
