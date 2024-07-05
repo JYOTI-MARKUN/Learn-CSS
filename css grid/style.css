@@ -1,0 +1,78 @@
+.container{
+    min-height: 60vh;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: repeat(4,100px);
+
+     /* we can use auto values  it will take all availbale space*/
+    /* grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(4,auto); */
+}
+
+.box{
+    background-color: rgb(228, 200, 162);
+    color: white;
+    font-size: 3rem;
+    /* height: 80px; */
+    /* width : 80px; */
+}
+
+
+.box-1 {
+    background-color: green;
+    /* grid-column-start: 1;
+    grid-row-start: 1; */
+
+    /* grid-column-start: 2;
+    grid-row-start: 2;
+
+    grid-column-end: 4;
+    grid-row-end: 4; */
+
+    /* using span property */
+    grid-column-start: span 2;
+    grid-row-start:span 2;
+    grid-column-end:5 ;
+    grid-row-end: 3;
+
+ 
+}
+
+.box-2 {
+    background-color: blueviolet; 
+}
+
+.box-3 {
+    background-color: blue;
+  
+}
+
+.box-4 {
+    background-color: brown;
+
+}
+
+.box-5 {
+    background-color: coral;
+}
+
+.box-6 {
+    background-color: darkblue;
+}
+
+.box-7 {
+    background-color: darkred;
+}
+
+.box-8 {
+    background-color: darkslategray;
+}
+
+.box-9 {
+    background-color: gray;
+}
+
+.box-10 {
+    background-color: navy;
+}

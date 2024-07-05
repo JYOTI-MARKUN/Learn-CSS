@@ -1,0 +1,52 @@
+.container{
+    grid-template-rows: none;
+    grid-template-columns: none;
+    column-gap : normal;
+    row-gap : normal;
+}
+
+.children{
+    grid-column-start : auto;
+    grid-column-end : auto;
+    grid-row-end : auto;
+    grid-row-end : auto;
+}
+
+.container{
+    grid-template-areas: none;
+    grid-auto-rows: auto;
+    grid-auto-columns: auto;
+    grid-auto-flow: auto;
+  
+}
+
+
+we can create grid using display grid property 
+by using this property the inline element chnages into block element
+grid item remains inside grid only, they can move out if width of the item is greater than grid width, but we put grid item in grid only
+
+when we have the enough grid rowws and column then grid item goes in the grid, if we increase the grid item then the extra grid item will take the vainlable space in the container automatically, that why we should give min height
+
+if we do not set any height and width to the grid item then it will auto take the space accroding to one grid cell
+
+by defauT grid item fllow html order to place themself in grid but we can set the postion of a each grid item using 
+grid-column-start, grid-row-start (can have positive and negative value)
+grid-column-end, grid-row-end (can have positive and negative value)
+grid-column-start ,end grid-row-start,end both have defauT value auto and this auto position is decided by the browser
+
+we can sent all four values together to place a grid element into place we want
+
+we can also move grid item using span using this we can mention how much we wanna increase our grid item (no of cells to be covered`)
+
+when we set grid-template-column ionly it will move other grid element, but when we set grid-template-row it will not move other grid item 
+
+row gap and column gap property to set gap 
+
+we can set grid-template-row value in %age as well as 1fr
+1fr = one fraction
+
+grid-template-column: repeat(4,1fr) means create 4 equal fraction column
+
+usually always avoid to make both rows and column make onlyb column, if in case you do not have any content then you can use both row and column
+
+1fr 2fr 2fr 1fr means create 4 columns give 2 and 3 rd column double space
