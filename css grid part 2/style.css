@@ -1,0 +1,89 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    /* min-height: 60vh; */
+    background-color: lightblue;
+    display: grid;
+    /* grid-template-columns: repeat(4,100px); */
+    /* grid-template-columns: repeat(4,minmax(80px,100px)); */
+    grid-template-columns: repeat(auto-fill,minmax(80px,1fr));
+    /* grid-template-columns: repeat(auto-fill,100px); */
+
+    /* grid-template: repeat(4,100px)/repeat(4,100px)  row/ columg; */
+    /* grid-auto-flow:column; */
+    grid-auto-columns: 100px;
+    grid-auto-rows: 100px;
+    grid-auto-flow:row;
+    /* align-items: center;
+    justify-items: center; */
+    /* grid-auto-flow:dense; */
+  }
+  
+  .box {
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  
+  .box-1 {
+    background-color: green;
+    /* grid-column: 3/6; */
+    /* width: 100px; */
+    /* grid-column-start: 3;  when we apply this 1 box will in third place and all other will go ahead  if we want to avoid this we can use grid-auto-start dense property */
+  }
+  
+  .box-2 {
+    background-color: blueviolet;
+  }
+  
+  .box-3 {
+    background-color: blue;
+  }
+  
+  .box-4 {
+    background-color: brown;
+  }
+  
+  .box-5 {
+    background-color: coral;
+    /* align-self: stretch;
+    justify-self: stretch; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    /* margin-top: auto; */
+    /* margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto; */
+
+    /* margin-inline: auto;
+    margin-block:auto; */
+
+    /* margin: auto; */
+   
+  }
+  
+  .box-6 {
+    background-color: darkblue;
+  }
+  
+  .box-7 {
+    background-color: darkred;
+  }
+  
+  .box-8 {
+    background-color: darkslategray;
+  }
+  
+  .box-9 {
+    background-color: gray;
+  }
+  
+  .box-10 {
+    background-color: navy;
+  }
+  

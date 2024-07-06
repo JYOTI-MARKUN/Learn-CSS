@@ -1,0 +1,5 @@
+grid template areas we can give area name as the number of rows and columns
+
+we should have whole rectangal or square for griid area
+
+grid-area is a short property fir grid-column,grid-row, which are further property of grid-column-start,grid-column-end

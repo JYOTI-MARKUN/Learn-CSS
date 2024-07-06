@@ -1,0 +1,27 @@
+grid auto flow : by default it is row means no of row, if you create 10 grid item and give grid auto flow column then 10 column will be created
+  grid-template-columns: repeat(4,100px);
+    grid-auto-flow:column;  // when we have 10 columns and we set both these property then 4 column of 100 width will create and rest will take width automatically, but they can take different width 
+    to avoid taking that the different width we can use grid-auto-columns 100px , then all rest columns will have width 100px by default its property is auto
+
+if we wanna make height of all grid item same then we can use grid-auto-row 100px    
+
+as we know from previous value when we set bxo 1 in third place using grid column start it pushes other element to avoid that we can use grid-auto-flow dense or row dense    
+
+
+we can use all flex property in grid also , like align-item centre, justify-content etc
+to make all grid item in the centre of their own grid content then use 
+align-item centre justify-items centre  (their default property is normal or streached) (we can move our item within cell uisng these two properties)
+
+property streached will streach the grid item to whole cell
+
+use flex property to move items with grid cell, and to make one item to take whole cell width then use streach
+we can also make one item within the centre of the cell using margin auto property 
+
+we know that grid-column-start and grid column end we can set both of them using grid-column property
+
+if we set any value in grid-column, grid-column-start, end and we do not have that row and column number than it will be created inmplicitly (automatically)
+
+grid-template: shortcut fro grid-template-row and grid-template-column we have to set both properties to make it valid if you do not want to set one property then use none 
+
+grid-template-column : repeat(4,auto ) // repreat (auto-fill,100px)  this fll craete auto column of 100xp according to available space
+grid-template-columns: repeat(4,minmax(80px,100px)); min minimum aidth will be 80 and maximum will be 100px according to available space
