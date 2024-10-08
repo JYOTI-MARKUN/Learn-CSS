@@ -1,0 +1,16 @@
+#ea4c89 to #fa6400
+#2ea44f to #405cf5
+
+css variable can be defined anywhere, 
+if we have define css variable and use it then its easy as we need to change the property only in the section where we have defined them
+
+css variable starts from -- and we can give them any name
+once define css variable can be use anywhere in the code
+
+we should always define css variable to the root element, although we can define them anywhere 
+
+css varibel defined at root can be overright anywhere in the section as root element has very less specificity, if you want to overright css variable in some section 
+
+fallback value if we do not have css variable available or we are facing some error to get them then we can use fallback value to that variable
+
+ if we do not provide fallback value then it will inherit from its property
